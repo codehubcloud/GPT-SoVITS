@@ -44,7 +44,7 @@ ignore = [
 fixable = ["ALL"]
 unfixable = []
 
-# 每个文件允许的未使用导入数量
+# 匹配未使用变量的正则表达式（以下划线开头的变量被视为占位符）
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
 [tool.ruff.lint.isort]
